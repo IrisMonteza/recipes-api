@@ -2,11 +2,10 @@
   "name": "recipes.api",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
-    "start": "serve -s build",
+    "start": "node dist/index.js",
     "build": "tsc",
     "test": "react-scripts test --env =jsdom",
     "eject": "react-scripts eject",
